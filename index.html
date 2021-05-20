@@ -24,7 +24,7 @@
                 <a class="nav-link active" aria-current="page" href="#listing">Cars</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Enquiries</a>
+                <a class="nav-link" href="#enquiry">Enquiries</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
@@ -102,9 +102,34 @@
                 <!-- Enquiry About car section start -->
 
 
-        <div class="container">
-            <div class="row">
-                
+        <div class="container mt-5">
+            <div class="row bg-light">
+                <h4 id="enquiry">Enquiry About a Car</h4>
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputName" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
+                      </div>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputselect" class="form-label">Choose a Car</label>
+                        <select class="form-select" id="exampleInputselect">
+                            <option selected>Open this section menu</option>
+                            <option>Sedan</option>
+                            <option>Coupe</option>
+                            <option>Wegon</option>
+                          </select>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputComents" class="form-label">Comments</label>
+                        <textarea class="form-control" id="exampleInputComents" aria-describedby="commentHelp"></textarea>
+                      </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+
             </div>
         </div>
                 <!-- Enquiry About car section Finished -->

@@ -1,21 +1,18 @@
-.logo img{
+.logo img {
     height: 25px;
-    /* margin-left: 10px; */
-    
 }
 
-
-
-
-.list-group{
-    flex-flow: row wrap !important;
+.list-group {
+ flex-flow: row wrap !important;
 }
 
-.list-group-item{
+.list-group-item {
     border: none;
 }
-.card-img-top{
+
+.card-img-top {
     border-radius: 10%;
     height: 10rem;
-    
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 0%;
 }

@@ -1,0 +1,32 @@
+
+.about{
+width: 600px;
+margin-top:150px;
+height: 400px;
+font-size: 1rem;
+line-height: 1.6;
+font-family: 'Open Sans',sans-serif;
+color: #000000;
+box-sizing: border-box;
+display: block;
+padding-left: 20px;
+}
+
+.aboutus{
+ margin-top: 50px;
+}
+
+.image01{
+    margin-top: 50px;
+    width: 639px;
+    height: 402px;
+    padding-left: 10%;
+    margin-bottom: 0%;
+}
+
+.footer
+{
+  justify-content: center;
+  height:80px;
+  width:1300px;
+}

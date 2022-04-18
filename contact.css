@@ -1,0 +1,122 @@
+.header
+{
+margin: 0;
+padding: 0;
+justify-content: center;
+font-family: "montserrat",sans-serif;
+}
+.contact-section
+{   
+	padding: 40px 0;
+	display:block;
+	text-align: center;
+    justify-content: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #ffffff;
+	background-image: url("images/pexels-steven-arenas-379419.jpg");
+	background-position: 50% 50%;
+	overflow: visible;
+	
+}
+.contact-section h1{
+	text-align: center;
+	color: rgb(255, 255, 255);
+}
+.section-div-01 h{
+	text-align: center;
+	color: rgb(0, 0, 0);
+}
+
+.border{
+	width: 100px;
+	height: 10px;
+	background: #f9fcff;
+	margin: 40px auto;
+}
+.contact-form {
+	max-width: 600px;
+	margin: auto;
+	padding: 0 10px;
+	overflow: hidden;
+}
+.contact-form-text{
+	display:block;
+	width: 600px;
+	box-sizing: border-box;
+	margin: 16px 0;
+	border: 0;
+	background: rgb(255, 255, 255);
+	padding: 20px 40px;
+	outline: none;
+	color: #ddd;
+	transition: 0.5s;
+	justify-content: center;
+	
+}
+.contact-form-text:focus
+{
+box-shadow: 0 0 10px 4px #34495e;
+
+}
+.textarea .contact-form-text{
+	display:block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 16px 0;
+	border: 0;
+	background: #111;
+	padding: 20px 40px;
+	outline: none;
+	color: #ddd;
+	transition: 0.5s;
+	
+}
+.contact-form-btn{
+	height: auto;
+	float: right;
+	border: 0;
+	background:#fa0606 ;
+	color: #fff;
+	padding: 12px 50px;
+	border-radius: 20px;
+	cursor: pointer;
+	justify-content: center;
+}
+.contact-form-btn:hover{
+	background: #2980b9;
+
+}
+
+.section-div-02
+{
+    box-sizing: border-box;
+    position: relative;
+    flex-shrink: 0;
+    display: flex;
+    height: 48px;
+    min-height: 16px;
+    white-space: nowrap;
+    margin: 30px auto 60px;
+    pointer-events: initial;
+    display: flex;
+    justify-content: center;
+}
+
+.section-div-01
+{    
+	text-align: center;
+	pointer-events: initial;
+    display:flexbox;
+    justify-content: center;
+}
+
+.u-icon
+{
+	height: 80px;
+}
+
+.h3 {
+	white-space: pre;
+  }
